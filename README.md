@@ -15,14 +15,15 @@ pip install streamlit yfinance pandas
 streamlit run portfolio_app/portfolio_tracker.py
 ```
 --
-# Option Pricer (Tkinter)#
+# Option Pricer (Tkinter)
 Description:
 A standalone desktop application implementing the Black–Scholes Model to price European call and put options, with full calculation of all key Greeks: Delta, Gamma, Vega, Theta, and Rho.
-Features
+**Features**
 Calculates theoretical prices for Call and Put options
 Displays all Greeks with instant updates
 Clean interactive GUI built with Tkinter
 Uses NumPy and SciPy for accurate quantitative computation
-How to Run
+**How to Run**
+```bash
 pip install numpy scipy
 python option_pricer/option_pricer.py
